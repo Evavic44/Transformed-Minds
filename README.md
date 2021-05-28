@@ -1,5 +1,9 @@
 <h1 align="center">Transformed Mind</h1>
 
+<a href="mailto: transformedmindsng@gmail.com"> 
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
 <h2>The Vision</h2>
 <p>Transformed Minds is an initiative aimed at helping individuals struggling with addiction to sexual sins like fornication, masturbation, and pornography. The gospel of Jesus Christ will only be internalised when the mind is fully prepared to receive it.
 The mind of a believer must be devoid of blemishes, and this initiative is targeted at improving the spiritual lives of Christians through the gospel of Jesus.</p>
