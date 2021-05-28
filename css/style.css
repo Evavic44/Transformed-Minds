@@ -36,6 +36,33 @@ a {
     color: #fff;
 }
 
+/* Hero */
+#hero {
+    height: 70vh;
+}
+
+#hero .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(to right, var(--primary-purple), var(--russian-violet))
+}
+
+#hero .content h1 {
+    font-size: 4rem;
+    padding-bottom: 20px;
+    font-family: 'Righteous', sans-serif;
+}
+
+#hero .content .btn {
+    margin: 10px 0;
+    font-weight: 700;
+}
+
 /* Form Page */
 .form-page {
     display: flex;
