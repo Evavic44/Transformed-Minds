@@ -1,0 +1,26 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-purple);
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 1rem 2.2rem;
+    font-weight: 400;
+    transition: background 0.4s ease-in-out;
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--primary-purple);
+}
+
+.btn-primary {
+    background-color: var(--russian-violet);
+    color: var(--russian-violet);
+}

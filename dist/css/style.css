@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Righteous&display=swap');
+
+:root {
+    --queen-blue: #4c6ca0ff;
+    --dark-purple: #1e052eff;
+    --russian-violet: #40155cff;
+    --primary-purple: #7722ac;
+    --minion-yellow: #ffe84fff;
+    --yellow-pantone: #fce130ff;
+}
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: var(--russian-violet);
+    color: #fff;
+    font-weight: 300;
+}
+
+h1 h2 h3 {
+    padding-bottom: 15px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Form Page */
+.form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.form-page h1 {
+    font-family: 'Righteous', sans-serif;
+    margin-bottom: 20px;
+}
+
+.form-page h1 .fas {
+    color: var(--yellow-pantone);
+}
+
+.form-body {
+    background-color: #fff;
+    color: #333;
+    width: 450px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.form-body h2, p {
+    text-align: center;
+}
+
+.form-body h2 {
+    font-family: 'Righteous', sans-serif;
+    color: var(--russian-violet);
+}
+
+.form-body p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.8;
+    margin: 3px 10px 15px;
+} 
+
+.form-group label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    opacity: 0.9;
+    padding-bottom: 5px;
+    color: var(--dark-purple)
+}
+
+.form-group .in {
+    display: inline;
+}
+
+.form-group .bl {
+    display: block;
+}
+
+.form-group input {
+    margin-bottom: 15px;
+}
+
+.form-group input[type="email"], 
+.form-group input[type="text"], 
+.form-group input[type="tel"],
+.form-group button,
+.form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.form-group input[type="email"]:focus, 
+.form-group input[type="radio"]:focus,
+.form-group input[type="text"]:focus, 
+.form-group input[type="tel"]:focus,
+.form-group button:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #aaa;
+}
+
+.form-group input[type="radio"] {
+    margin: 0 20px 10px;
+}
+            
+.form-group select {
+    height: 35px;
+    margin: 0 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #555;
+    border: 1px solid #aaa;
+}
+
+.form-group select[id="month"],
+.form-group select[id="year"] {
+    width: 80px;
+}
+
+
+.form-group:nth-child(6),
+.form-group:nth-child(7) {
+    margin-bottom: 10px;
+}
+
+.form-group textarea {
+    margin: 5px 0 30px;
+}
+
+.form-group button {
+    cursor: pointer;
+    background-color: var(--russian-violet);
+    color: #fff;
+    transition: background 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.form-group button:hover {
+    background-color: var(--primary-purple);
+}
+
+.form-footer p {
+    font-size: 0.92rem;
+    margin-top: 20px;
+}
+
+.form-footer .socials {
+    text-align: center;
+}
+
+.form-footer .socials a {
+    opacity: 0.9;
+    font-size: 0.9;
+    margin: 10px;
+}
+
+.form-footer .socials a:hover {
+    opacity: 1;
+}
+
+/* Thank you page */
+.thankyou {
+    height: 70vh;
+}
+
+.thankyou .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.thankyou .content h1 {
+    font-size: 4rem;
+} 
+
+.thankyou .content h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.thankyou .content p {
+    margin-bottom: 20px;
+}
+
+.thankyou .btn {
+    font-weight: 600; 
+}
+
+.thankyou .btn:hover span {
+    transition: all 0.5s ease-in;
+}
+
+.thankyou .btn:hover span {
+    transform: rotate(90deg);
+}
+
+.form-footer {
+    padding: 20px;
+}
+
+.form-footer .copy {
+    font-size: 0.9rem;
+}
