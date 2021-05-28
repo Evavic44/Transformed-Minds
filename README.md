@@ -15,25 +15,23 @@ This initiative is not meant for just a select group of people.
 Christians all over the world are free to join in through fasting and prayers. 
 Let's show the devil the stuff we are made of.</p>
 
-
 ### Things to add
+- [ ] What do you struggle with? (Thick as many as applicable)
+      - Masturbation
+      - Pornography
+      - Aduletry
+      - Fornication
+- [x] Name
+- [x] Phone Number
+- [x] Age
+- [ ] How bad is it?
+      - I do this ocassionally
+      - I do this frequently
+      - I can't go a day without doing this.
+- [ ] Tell us briefly how it started
+- [ ] Are you willing to let this go?
+- [ ] Can you fast
+- [ ] Would you help other people when you get free
+- [ ] Thank you for filling this form.
+We meet daily by 8pm for counselling and prayer sessions. See you there!!!
 
-1. 
-- [] Status select list wwith options of
-- Volunteer
-- Need assitance
-
-2. 
-- [] How did you hear about us select list with options of 
-- Facebook
-- Twitter
-- Instagram
-- A friend
-- Family
-- Others
-
-3. 
-- [] Marital status
-- Single
-- Married
-- Widowed
