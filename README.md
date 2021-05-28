@@ -1,5 +1,7 @@
 <h1 align="center">Transformed Mind</h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ac08b08f-d878-4c3f-873e-7d9775305efc/deploy-status)](https://app.netlify.com/sites/transformedminds/deploys)
+
 <a href="mailto: transformedmindsng@gmail.com"> 
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
