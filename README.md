@@ -36,9 +36,9 @@ Let's show the devil the stuff we are made of.</p>
 
 ### Issues/Todo
 
-- [ ] Add optional message 
-- [ ] Add message to thank you page
-- [ ] Check values that hold submit message on W3S
-- [ ] Form storage on Netlify
-- [ ] Check form width on mobile screens
+- [x] Add optional message 
+- [x] Add message to thank you page
+- [x] Check values that hold submit message on W3S
+- [x] Form storage on Netlify
+- [x] Check form width on mobile screens
 - [ ] Add back button to return home on form
