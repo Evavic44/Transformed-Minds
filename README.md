@@ -32,7 +32,7 @@ Let's show the devil the stuff we are made of.</p>
 - [x] Are you willing to let this go?
 - [x] Can you fast
 - [x] Would you help other people when you get free
-- [ ] Thank you for filling this form. We meet daily by 8pm for counselling and prayer sessions. See you there!!!
+- [x] Thank you for filling this form. We meet daily by 8pm for counselling and prayer sessions. See you there!!!
 
 ### Issues/Todo
 
