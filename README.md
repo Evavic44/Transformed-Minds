@@ -20,22 +20,23 @@ Christians all over the world are free to join in through fasting and prayers.
 Let's show the devil the stuff we are made of.</p>
 
 ### Things to add
-- [ ] What do you struggle with? (Thick as many as applicable)
-      - Masturbation
-      - Pornography
-      - Aduletry
-      - Fornication
+
+- [x] What do you struggle with?
 - [x] Name
 - [x] Phone Number
 - [x] Age
-- [ ] How bad is it?
-      - I do this ocassionally
-      - I do this frequently
-      - I can't go a day without doing this.
-- [ ] Tell us briefly how it started
-- [ ] Are you willing to let this go?
-- [ ] Can you fast
-- [ ] Would you help other people when you get free
-- [ ] Thank you for filling this form.
-We meet daily by 8pm for counselling and prayer sessions. See you there!!!
+- [x] How bad is it?
+- [x] Tell us briefly how it started
+- [x] Are you willing to let this go?
+- [x] Can you fast
+- [x] Would you help other people when you get free
+- [ ] Thank you for filling this form. We meet daily by 8pm for counselling and prayer sessions. See you there!!!
 
+### Issues/Todo
+
+- [ ] Add optional message 
+- [ ] Add message to thank you page
+- [ ] Check values that hold submit message on W3S
+- [ ] Form storage on Netlify
+- [ ] Check form width on mobile screens
+- [ ] Add back button to return home on form
