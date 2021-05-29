@@ -26,34 +26,34 @@
                 <p>Fill this form for counselling, or to support this initiative and we'll get back to you.</p>
                 <form name="contact" action="thankyou.html" data-netlify="true" data-netlify-recaptcha="true">
                     <div class="form-group">
-                        <label for="first-name" class="bl">First Name</label>
+                        <label for="first-name">First Name</label>
                         <input type="text" name="first name" id="first-name" placeholder="Enter First Name" required>
                     </div>
         
                     <div class="form-group">
-                        <label for="last-name" class="bl">Last Name</label>
+                        <label for="last-name">Last Name</label>
                         <input type="text" name="last name" id="last-name" placeholder="Enter Last Name" required>
                     </div>
     
                     <div class="form-group">
-                        <label for="telegram-name" class="bl">Telegram Name</label>
+                        <label for="telegram-name">Telegram ID (Optional)</label>
                         <input type="text" name="telegram name" id="telegram-name" placeholder="Enter Telegram Name">
                     </div>
         
                     <div class="form-group">
-                        <label for="email" class="bl">Email</label>
+                        <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="Enter Email Address">
                     </div>
         
                     <div class="form-group">
-                        <label for="phone" class="bl">Phone</label>
+                        <label for="phone">Phone</label>
                         <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
                     </div>
         
                     <div class="form-group">
-                        <label for="Date of Birth" class="bl">Date of Birth</label>
-        
-                        <label for="month" class="in">Month</label>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="DOB" id="dob">
+                        <!-- <label for="month" class="in">Month</label>
                         <select name="month" id="month">
                             <option value="" hidden></option>
                             <option value="Jan">January</option>
@@ -229,24 +229,72 @@
                             <option value="2021">1902</option>
                             <option value="2021">1901</option>
                             <option value="2021">1900</option>
+                        </select> -->
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="male">Female</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <label for="gender" class="bl">Gender</label>
-    
-                        <label for="male" class="in">Male
-                            <input type="radio" name="gender" id="male" value="male" required>
-                        </label>
-        
-                        <label for="female" class="in">Female
-                            <input type="radio" name="gender" id="female" value="female" required>
-                        </label>
+                        <label for="what-do-you-struggle-with?">What do you struggle with</label>
+                        <select name="what-do-you-struggle-with?" id="what-do-you-struggle-with?">
+                            <option value="pornography">Pornography</option>
+                            <option value="aduletry">Aduletry</option>
+                            <option value="fornication">Fornication</option>
+                            <option value="masturbation">Masturbation</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="how-it-started">Tell us briefly how it started</label>
+                        <textarea name="how-it-started" id="how-it-started" placeholder="Tell us briefly how it started"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="how-bad-is-it?">How bad is it?</label>
+                        <select name="how-bad-is-it?" id="how-bad-is-it?">
+                            <option value="I do this ocassionally">I do this ocassionally</option>
+                            <option value="I do this frequently">I do this frequently</option>
+                            <option value="I can't go a day without doing this">I can't go a day without doing this</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="are-you-willing-to-let-this-go?">Are you willing to let this go?</label>
+                        <select name="are-you-willing-to-let-this-go?" id="are-you-willing-to-let-this-go?">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            <option value="not-sure">Not Sure</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="can-you-fast?">Can you fast?</label>
+                        <select name="can-you-fast?" id="can-you-fast?">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            <option value="not-sure">Not Sure</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="will-you-help-others-when-you-get-free?">Will you help others when you get free?</label>
+                        <select name="will-you-help-others-when-you-get-free?" id="will-you-help-others-when-you-get-free?">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            <option value="not-sure">Not Sure</option>
+                        </select>
                     </div>
         
                     <div class="form-group">
-                        <label for="message" class="bl">Message</label>
-                        <textarea name="message" id="message" value="message" rows="8" cols="40" placeholder="Are you looking for help for you or someone? Let us know."></textarea>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" value="message" placeholder="Are you looking for help for you or someone? Let us know."></textarea>
                     </div>
     
                     <div class="form-group">
