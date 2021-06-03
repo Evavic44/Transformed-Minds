@@ -1,4 +1,4 @@
-<h1 align="center">Transformed Mind</h1>
+<img align="center" src="https://user-images.githubusercontent.com/62628408/120684411-8e82b000-c496-11eb-8757-9144bc60054a.png">
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ac08b08f-d878-4c3f-873e-7d9775305efc/deploy-status)](https://app.netlify.com/sites/transformedminds/deploys)
 
@@ -21,24 +21,5 @@ This initiative is not meant for just a select group of people.
 Christians all over the world are free to join in through fasting and prayers. 
 Let's show the devil the stuff we are made of.</p>
 
-### Things to add
 
-- [x] What do you struggle with?
-- [x] Name
-- [x] Phone Number
-- [x] Age
-- [x] How bad is it?
-- [x] Tell us briefly how it started
-- [x] Are you willing to let this go?
-- [x] Can you fast
-- [x] Would you help other people when you get free
-- [x] Thank you for filling this form. We meet daily by 8pm for counselling and prayer sessions. See you there!!!
-
-### Issues/Todo
-
-- [x] Add optional message 
-- [x] Add message to thank you page
-- [x] Check values that hold submit message on W3S
-- [x] Form storage on Netlify
-- [x] Check form width on mobile screens
 - [ ] Add back button to return home on form
