@@ -1,287 +1,230 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Righteous&display=swap');
 
 :root {
-    --queen-blue: #4c6ca0ff;
-    --dark-purple: #1e052eff;
-    --russian-violet: #40155cff;
-    --primary-purple: #7722ac;
-    --minion-yellow: #ffe84fff;
-    --yellow-pantone: #fce130ff;
+   --queen-blue: #4c6ca0ff;
+   --dark-purple: #1e052eff;
+   --russian-violet: #40155cff;
+   --primary-purple: #7722ac;
+   --minion-yellow: #ffe84fff;
+   --yellow-pantone: #fce130ff;
 }
 
 *, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
-    background-color: var(--russian-violet);
-    color: #fff;
-    font-weight: 300;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 1.5;
+   background-color: var(--russian-violet);
+   color: #fff;
+   font-weight: 300;
 }
 
-h1 h2 h3 {
-    padding-bottom: 15px;
-}
+h1 h2 h3 { padding-bottom: 15px; }
 
-p {
-    margin: 10px 0;
-}
+p { margin: 10px 0; }
 
 a {
-    text-decoration: none;
-    color: #fff;
+   text-decoration: none;
+   color: #fff;
 }
 
 /* Hero */
 #hero {
-    height: 70vh;
+   height: 70vh;
 }
 
 #hero .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    padding: 20px;
-    background: linear-gradient(to right, var(--primary-purple), var(--russian-violet))
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 100%;
+   padding: 20px;
+   background: linear-gradient(to right, var(--primary-purple), var(--russian-violet))
 }
 
 #hero .content h1 {
-    font-size: 3.5rem;
-    padding-bottom: 20px;
-    font-family: 'Righteous', sans-serif;
+   font-size: 3.5rem;
+   padding-bottom: 20px;
+   font-family: 'Righteous', sans-serif;
 }
 
 #hero .content .btn {
-    margin: 10px 0;
-    font-weight: 700;
+   margin: 10px 0;
+   font-weight: 700;
 }
 
 /* Form Page */
 .form-page {
-    margin: 30px;
+   margin: 30px;
 }
 
 .form-page h1 {
-    font-family: 'Righteous', sans-serif;
-    text-align: center;
-    margin-bottom: 20px;
+   font-family: 'Righteous', sans-serif;
+   text-align: center;
+   margin-bottom: 20px;
 }
 
 .fa-lightbulb {
-    color: var(--yellow-pantone);
+   color: var(--yellow-pantone);
 }
 
 .form-body {
-    background-color: #fff;
-    color: #333;
-    padding: 25px;
-    border-radius: 5px;
+   background-color: #fff;
+   color: #333;
+   padding: 25px;
+   border-radius: 5px;
 }
 
 .form-body h2, p {
-    text-align: center;
+   text-align: center;
 }
 
 .form-body h2 {
-    font-family: 'Righteous', sans-serif;
-    color: var(--russian-violet);
+   font-family: 'Righteous', sans-serif;
+   color: var(--russian-violet);
 }
 
 .form-body p {
-    font-size: 0.8rem;
-    font-weight: 500;
-    opacity: 0.8;
-    margin: 3px 10px 15px;
+   font-size: 0.8rem;
+   font-weight: 500;
+   opacity: 0.8;
+   margin: 3px 10px 15px;
 } 
 
 /* Form group */
 .form-group {
-    margin-bottom: 30px;
+   margin-bottom: 30px;
 }
 
 .form-group label {
-    display: block;
-    font-size: 0.8rem;
-    font-weight: 700;
-    opacity: 0.9;
-    padding-bottom: 10px;
-    color: var(--dark-purple)
+   display: block;
+   font-size: 0.8rem;
+   font-weight: 700;
+   opacity: 0.9;
+   padding-bottom: 10px;
+   color: var(--dark-purple)
 }
 
-
-/* .form-group .in {
-    display: inline;
-}
-
-.form-group .bl {
-    display: block;
-} */
-
-
-/* .form-group input[type="email"], 
-.form-group input[type="text"], 
-.form-group input[type="tel"], */
 .form-group input,
 .form-group button,
 .form-group textarea,
 .form-group select {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: block;
-    width: 100%;
-    padding: 20px;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    font-size: 1rem;
-    color: #444;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: block;
+   width: 100%;
+   padding: 20px;
+   border: 1px solid #eee;
+   border-radius: 5px;
+   font-size: 1rem;
+   color: #444;
 }
 
-/* .form-group input[type="email"]:focus, 
-.form-group input[type="radio"]:focus,
-.form-group input[type="text"]:focus, 
-.form-group input[type="tel"]:focus, */
 .form-group input:focus,
 .form-group button:focus,
 .form-group textarea:focus,
 .form-group select:focus {
-    outline: none;
-    border-color: #a3a3a3;
+   outline: none;
+   border-color: #a3a3a3;
 }
-
-/* .form-group input[type="radio"] {
-    margin: 0 20px 10px;
-} */
-            
-/* .form-group select {
-    height: 35px;
-    width: 100%;
-    margin: 0 5px 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #555;
-    border: 1px solid #aaa;
-    text-align: center;
-} */
-
-/* .form-group select[id="month"] {
-    width: 100px;
-}
-
-.form-group select[id="year"] {
-    width: 60px;
-} */
-
-/* .form-group:nth-child(6),
-.form-group:nth-child(7) {
-    margin-bottom: 10px;
-} */
-
-/* .form-group textarea {
-    margin: 5px 0 30px;
-} */
-
-/* .form-group .recaptcha {
-    margin-bottom: 10px; 
-} */
 
 .form-group button {
-    cursor: pointer;
-    background-color: var(--russian-violet);
-    color: #fff;
-    transition: background 0.3s ease-in-out;
-    font-weight: 600;
+   cursor: pointer;
+   background-color: var(--russian-violet);
+   color: #fff;
+   transition: background 0.3s ease-in-out;
+   font-weight: 600;
 }
 
 .form-group button:hover {
-    background-color: var(--primary-purple);
+   background-color: var(--primary-purple);
 }
 
 .form-footer p {
-    font-size: 0.92rem;
-    margin-top: 20px;
+   font-size: 0.92rem;
+   margin-top: 20px;
 }
 
 .form-footer p a {
-    text-decoration: underline;
-    color: #ddd;
+   text-decoration: underline;
+   color: #ddd;
 }
 
 .form-footer .socials {
-    text-align: center;
+   text-align: center;
 }
 
 .form-footer .socials a {
-    opacity: 0.9;
-    font-size: 0.9;
-    margin: 10px;
+   opacity: 0.9;
+   font-size: 0.9;
+   margin: 10px;
 }
 
 .form-footer .socials a:hover {
-    opacity: 1;
+   opacity: 1;
 }
 
 /* Thank you page */
 .thankyou {
-    height: 70vh;
+   height: 70vh;
 }
 
 .thankyou .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 100%;
+   padding: 20px;
 }
 
 .thankyou .content h1 {
-    font-size: 4rem;
+   font-size: 4rem;
 } 
 
 .thankyou .content h4 {
-    font-weight: 500;
-    font-size: 1.2rem;
-    padding: 10px;
+   font-weight: 500;
+   font-size: 1.2rem;
+   padding: 10px;
 }
 
 .thankyou .content p {
-    margin-bottom: 20px;
+   margin-bottom: 20px;
 }
 
 .thankyou .btn {
-    font-weight: 600; 
+   font-weight: 600; 
 }
 
 .thankyou .btn:hover span {
-    transition: all 0.5s ease-in;
+   transition: all 0.5s ease-in;
 }
 
 .thankyou .btn:hover span {
-    transform: rotate(90deg);
+   transform: rotate(90deg);
 }
 
 .form-footer {
-    padding: 20px;
+   padding: 20px;
 }
 
 .form-footer .copy {
-    font-size: 0.9rem;
+   font-size: 0.9rem;
 }
 
 /* Responsive */
 @media(max-width: 768px) {
     #hero .content h1 {
-        font-size: 2.5rem;
+      font-size: 2.5rem;
     }
 
     .form-page h1 {
-        font-size: 1.8rem;
+      font-size: 1.8rem;
     }
 }
