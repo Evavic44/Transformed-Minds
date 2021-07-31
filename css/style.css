@@ -210,6 +210,11 @@ a {
    transform: rotate(90deg);
 }
 
+.thankyou .back {
+   text-decoration: underline;
+   font-size: 0.85rem;
+}
+
 .form-footer {
    padding: 20px;
 }
