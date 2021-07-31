@@ -20,6 +20,3 @@ free, and helping as many as possible through the grace of Jesus.
 This initiative is not meant for just a select group of people. 
 Christians all over the world are free to join in through fasting and prayers. 
 Let's show the devil the stuff we are made of.</p>
-
-
-- [ ] Add back button to return home on form
