@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Righteous&display=swap');
 
 :root {
-   --queen-blue: #4c6ca0ff;
-   --dark-purple: #1e052eff;
-   --russian-violet: #40155cff;
-   --primary-purple: #7722ac;
-   --minion-yellow: #ffe84fff;
-   --yellow-pantone: #fce130ff;
+   --primary-color: #8628c0;
+   --bg-primary: #c9a1e4;
+   --bg-primary-dark: #40155C;
+   --secondary-color: #fce130ff;
+   --bg-secondary: #ffea60;
+   --text-primary: #8b2ec5;
 }
 
 *, html {
@@ -18,7 +18,7 @@
 body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    line-height: 1.5;
-   background-color: var(--russian-violet);
+   background-color: var(--text-primary);
    color: #fff;
    font-weight: 300;
 }
@@ -34,9 +34,9 @@ a {
 
 /* Hero */
 #hero {
-   height: 80vh;
+   height: 100vh;
    background: url(/images/home/hero.jpg) no-repeat center center/cover;
-   box-shadow: inset 0 10px 100px 100px rgba(255, 255, 255, 0.3);
+   box-shadow: inset 0 0px 100px 100px rgba(0, 0, 0, 0.664);
 }
 
 #hero .content {
@@ -45,13 +45,18 @@ a {
    align-items: flex-start;
    justify-content: center;
    height: 100%;
-   padding: 20px;
+   padding: 60px 40px 0px;
 }
 
 #hero .content h1 {
-   font-size: 3rem;
-   padding-bottom: 20px;
+   font-size: 1.5rem;
+   padding-bottom: 10px;
    font-family: 'Righteous', sans-serif;
+}
+
+#hero .content h3 {
+   font-size: 3rem;
+   max-width: 900px;
 }
 
 #hero .content .btn {
@@ -65,16 +70,19 @@ a {
 }
 
 .form-page h1 {
+   text-align: center;
    font-family: 'Righteous', sans-serif;
    margin-bottom: 20px;
 }
 
 .fa-lightbulb {
-   color: var(--yellow-pantone);
+   color: var(--primary-color);
 }
 
 .form-body {
+   font-family: 'Righteous', sans-serif;
    background-color: #fff;
+   box-shadow: 5px 10px 40px 5px rgba(8, 8, 8, 0.507), -5px -6px 30px 5px rgba(48, 46, 46, 0.5);
    color: #333;
    padding: 25px;
    border-radius: 5px;
@@ -82,14 +90,11 @@ a {
 
 .form-body h2 {
    text-align: center;
-}
-
-.form-body h2 {
-   font-family: 'Righteous', sans-serif;
-   color: var(--russian-violet);
+   color: var(--primary-color);
 }
 
 .form-body p {
+   text-align: center;
    font-size: 0.8rem;
    font-weight: 500;
    opacity: 0.8;
@@ -103,11 +108,10 @@ a {
 
 .form-group label {
    display: block;
-   font-size: 0.8rem;
-   font-weight: 700;
+   font-size: 0.85rem;
    opacity: 0.9;
    padding-bottom: 10px;
-   color: var(--dark-purple)
+   color: var(--primary-color);
 }
 
 .form-group input,
@@ -120,8 +124,9 @@ a {
    padding: 20px;
    border: 1px solid #eee;
    border-radius: 5px;
-   font-size: 1rem;
+   font-size: 0.9rem;
    color: #444;
+   transition: .4s ease-in-out;
 }
 
 .form-group input:focus,
@@ -129,19 +134,20 @@ a {
 .form-group textarea:focus,
 .form-group select:focus {
    outline: none;
-   border-color: #a3a3a3;
+   border-color: var(--bg-primary);
+   background-color: #f9f9f9;
 }
 
 .form-group button {
+   font-family: 'Righteous', sans-serif;
    cursor: pointer;
-   background-color: var(--russian-violet);
+   background-color: var(--bg-primary-dark);
    color: #fff;
    transition: background 0.3s ease-in-out;
-   font-weight: 600;
 }
 
 .form-group button:hover {
-   background-color: var(--primary-purple);
+   background-color: var(--primary-color);
 }
 
 .form-footer p {
@@ -219,15 +225,4 @@ a {
 
 .form-footer .copy {
    font-size: 0.9rem;
-}
-
-/* Responsive */
-@media(max-width: 768px) {
-    #hero .content h1 {
-      font-size: 2.5rem;
-    }
-
-    .form-page h1 {
-      font-size: 1.8rem;
-    }
 }

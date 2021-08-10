@@ -5,7 +5,7 @@
 
 .btn {
    display: inline-block;
-   background-color: #fff;
+   background-color: var(--secondary-color);
    color: #333;
    cursor: pointer;
    padding: 1rem 2.2rem;
@@ -15,10 +15,14 @@
 }
 
 .btn:hover {
-   background-color: #bbb;
+   background-color: var(--bg-secondary);
 }
 
 .btn-primary {
-   background-color: var(--russian-violet);
-   color: var(--russian-violet);
+   background-color: var(--bg-primary);
+   color: var(--bg-primary-dark);
+}
+
+.fa-lightbulb {
+   color: var(--secondary-color);
 }
