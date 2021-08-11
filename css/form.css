@@ -1,0 +1,113 @@
+body {
+   background: #fff;
+}
+
+.form-page {
+   margin: 20px;
+}
+
+.form-page h1 {
+   text-align: center;
+   font-family: 'Righteous', sans-serif;
+   margin-bottom: 20px;
+}
+
+.fa-lightbulb {
+   color: var(--primary-color);
+}
+
+.form-body {
+   border: 2px solid var(--secondary-color);
+   font-family: 'Righteous', sans-serif;
+   background-color: #fff;
+   box-shadow: 5px 10px 40px 5px rgba(8, 8, 8, 0.24), -5px -6px 30px 5px rgba(48, 46, 46, 0.39);
+   color: #333;
+   padding: 25px;
+   border-radius: 5px;
+}
+
+.form-body h2 {
+   text-align: center;
+   color: var(--primary-color);
+}
+
+.form-body p {
+   text-align: center;
+   font-size: 0.8rem;
+   font-weight: 500;
+   opacity: 0.8;
+   margin: 3px 10px 15px;
+} 
+
+/* Form group */
+.form-group {
+   margin-bottom: 30px;
+}
+
+.form-group label {
+   display: block;
+   font-size: 0.85rem;
+   opacity: 0.9;
+   padding-bottom: 10px;
+   color: var(--primary-color);
+}
+
+.form-group input,
+.form-group button,
+.form-group textarea,
+.form-group select {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: block;
+   width: 100%;
+   padding: 20px;
+   border: 1px solid #eee;
+   border-radius: 5px;
+   font-size: 0.9rem;
+   color: #444;
+   transition: .4s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group button:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+   outline: none;
+   border-color: var(--bg-primary);
+   background-color: #f9f9f9;
+}
+
+.form-group button {
+   font-family: 'Righteous', sans-serif;
+   cursor: pointer;
+   background-color: var(--bg-primary-dark);
+   color: #fff;
+   transition: background 0.3s ease-in-out;
+}
+
+.form-group button:hover {
+   background-color: var(--primary-color);
+}
+
+.form-footer p {
+   font-size: 0.92rem;
+   margin-top: 20px;
+}
+
+.form-footer p a {
+   text-decoration: underline;
+   color: #ddd;
+}
+
+.form-footer .socials {
+   text-align: center;
+}
+
+.form-footer .socials a {
+   opacity: 0.9;
+   font-size: 0.9;
+   margin: 10px;
+}
+
+.form-footer .socials a:hover {
+   opacity: 1;
+}
