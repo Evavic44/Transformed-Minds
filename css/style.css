@@ -56,23 +56,23 @@ i {
    padding: 1rem;
 }
 
-.navbar ul {
+.navbar .nav-menu {
    display: flex;
    align-items: center;
 }
 
-.navbar ul li a {
+.navbar .nav-menu li a {
    font-weight: 600;
    font-size: 0.9rem;
    margin: 0 20px;
    transition: color .2s ease-in;
 }
 
-.navbar ul li a:hover {
+.navbar .nav-menu li a:hover {
    color: #aaa;
 }
 
-.navbar ul li:last-child a:hover {
+.navbar .nav-menu li:last-child a:hover {
    color: #fff;
 }
 
@@ -98,6 +98,21 @@ i {
    flex-direction: column;
    line-height: 1rem;
    font-style: normal;
+}
+
+/* Hamburger menu */
+.hamburger {
+   display: none;
+   cursor: pointer;
+}
+
+.bar {
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   transition: all 0.3s ease-in-out;
+   background-color: var(--bg-secondary);
 }
 
 /* Hero */
@@ -293,4 +308,19 @@ i {
 
 .form-footer .copy {
    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media(max-width: 850px) {
+   .navbar {
+      justify-content: space-between;
+   }
+
+   .navbar .nav-menu {
+      display: none;
+   }
+
+   .navbar .hamburger {
+      display: block;
+   }
 }
