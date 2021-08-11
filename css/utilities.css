@@ -29,7 +29,7 @@
 
 .btn-secondary {
    background: #fff;
-   color: var(--bg-primary-dark);
+   color: #333;
 }
 
 .btn-secondary:hover {
