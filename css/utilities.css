@@ -6,7 +6,8 @@
 .btn {
    display: inline-block;
    background-color: var(--secondary-color);
-   color: #444;
+   border: 1px solid var(--secondary-color);
+   color: #333;
    cursor: pointer;
    padding: 1rem 2.2rem;
    margin: 0.5rem 0;
@@ -14,12 +15,14 @@
    transition: all 0.3s ease-in-out;
 }
 
-.btn-small {
-   padding: 0.5rem 1.5rem;
+.btn:hover {
+   background-color: #fff;
+   color: #333;
+   border: 1px solid var(--secondary-color);
 }
 
-.btn:hover {
-   background-color: var(--bg-secondary);
+.btn-small {
+   padding: 0.5rem 1.5rem;
 }
 
 .btn-primary {
@@ -33,7 +36,7 @@
 }
 
 .btn-secondary:hover {
-   color: var(--primary-color);
+   background: var(--secondary-color);
    color: #fff;
 }
 
