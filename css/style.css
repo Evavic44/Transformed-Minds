@@ -103,7 +103,7 @@ i {
 /* Hero */
 #hero {
    height: 100vh;
-   background: url(/images/home/hero.jpg) no-repeat center center/cover;
+   background: url(/assets/images/home/hero.jpg) no-repeat center center/cover;
    box-shadow: inset 0 0px 100px 100px rgba(0, 0, 0, 0.5);
 }
 
