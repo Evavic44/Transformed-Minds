@@ -325,17 +325,16 @@ i {
    #hero .content h1 {
       font-size: 2.5rem;
    }
+
+   #hero .content p {
+      margin: 1.5rem;
+   }
 }
 
 @media(max-width: 768px) {
    /* Hero */
    #hero .content h1 {
       font-size: 2.3rem;
-   }
-
-   #hero .content p {
-      margin: 0 1rem;
-      margin-bottom: 0.6rem;
    }
 }
 
@@ -359,14 +358,5 @@ i {
 
    #hero .content {
       padding: 10px 10px 20px;
-   }
-
-   #hero .content h1 {
-      font-size: 1.7rem;
-   }
-
-   #hero .content p {
-      margin: 0 1rem;
-      margin-bottom: 0.6rem;
    }
 }
