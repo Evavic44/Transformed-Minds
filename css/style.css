@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Righteous&display=swap');
 
 :root {
-   --primary-color: #8628c0;
+   --primary-color: #FFDD00;
+   --secondary-color: #333333;
+   --text-primary: #cca509;
    --bg-primary: #c9a1e4;
    --bg-primary-dark: #40155C;
-   --secondary-color: #FFDD00;
-   --bg-secondary: #E6B905;
-   --text-primary: #8b2ec5;
 }
 
 *, html {
@@ -18,8 +17,9 @@
 body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    line-height: 1.5;
-   color: #333;
+   color: var(--secondary-color);
    font-weight: 300;
+   height: 10000px;
 }
 
 h1, h2, h3 { 
@@ -29,7 +29,7 @@ h1, h2, h3 {
 h1::selection,
 h2::selection, 
 h3::selection {
-   background: var(--bg-secondary);
+   background: var(--text-primary);
    color: #fff;
 }
 
@@ -61,6 +61,23 @@ i {
    top: 0;
    left: 0;
    padding: 1rem;
+   background: #fff;
+   box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
+   z-index: 10;
+   transition: .4s ease-in-out;
+}
+
+.navbar.top {
+   background: transparent;
+   box-shadow: none;
+}
+
+.navbar .nav-menu li .colors,
+.navbar .nav-menu li .colora,
+.navbar .nav-menu li .colorb,
+.navbar .nav-menu li .colorc,
+.navbar .colorz {
+   color: #fff;
 }
 
 .navbar .nav-menu {
@@ -75,12 +92,16 @@ i {
    transition: all .2s ease-in;
 }
 
+.navbar .nav-menu li a {
+   color: var(--secondary-color);
+}
+
 .navbar .nav-menu li a:hover {
    color: #aaa;
 }
 
 .navbar .nav-menu li:last-child a:hover {
-   color: #333;
+   color: var(--secondary-color);
 }
 
 .logo {
@@ -98,6 +119,7 @@ i {
    display: flex;
    align-items: center;
    transition: all 0.4s ease-in-out;
+   color: var(--secondary-color);
 }
 
 .logo a span {
@@ -119,7 +141,7 @@ i {
    height: 3px;
    margin: 5px auto;
    transition: all 0.3s ease-in-out;
-   background-color: var(--bg-secondary);
+   background-color: var(--text-primary);
 }
 
 /* Hero */
@@ -136,9 +158,9 @@ i {
    justify-content: center;
    text-align: center;
    height: 100%;
-   padding: 60px 40px 0px;
+   padding: 60px 40px 20px;
    color: #fff;
-   max-width: 900px;
+   max-width: 1000px;
    margin: 0 auto;
 }
 
@@ -214,6 +236,17 @@ i {
 }
 
 /* Responsive */
+@media(max-width: 900px) {
+   .navbar {
+      justify-content: space-between;
+      padding: 0.5rem;
+   }
+
+   .navbar .nav-menu li a {
+      margin: 0 15px;
+   }
+}
+
 @media(max-width: 850px) {
    .navbar {
       justify-content: space-between;
@@ -221,7 +254,7 @@ i {
 
    .navbar .nav-menu {
       position: fixed;
-      right: -100%;
+      right: -100vh;
       top: 0;
       flex-direction: column;
       width: 350px;
@@ -233,7 +266,7 @@ i {
    
    .nav-menu li {
       border-top: 1px solid #aaa;
-      width: 50%;
+      width: 60%;
    }
    
    .nav-menu li:first-child {
@@ -245,7 +278,7 @@ i {
    }
 
    .nav-menu li:last-child a {
-      background-color: var(--secondary-color); 
+      background-color: var(--primary-color); 
    }
 
    .navbar .nav-menu li a {
@@ -255,17 +288,21 @@ i {
    }
 
    .navbar .nav-menu li a:hover {
-      color: #333;
+      color: var(--secondary-color);
    }
    
    .nav-menu.active {
       right: 0;
    }
 
+   .nav-menu.active body {
+      overflow-y: hidden;
+   }
+
    .nav-link {
       display: block;
       width: 100%;
-      color: #333;
+      color: var(--secondary-color);
    }
 
    .navbar .hamburger {
@@ -294,6 +331,38 @@ i {
    /* Hero */
    #hero .content h1 {
       font-size: 2.3rem;
+   }
+
+   #hero .content p {
+      margin: 0 1rem;
+      margin-bottom: 0.6rem;
+   }
+}
+
+@media(max-width: 400px) {
+   .navbar {
+      padding: 0.7rem;
+   }
+
+   .navbar .nav-menu {
+      width: 80%;
+   }
+
+   .nav-menu li:first-child {
+      margin-top: 160px;
+   }
+
+   .logo {
+      padding: 0rem;
+      font-size: 1.1rem;
+   }
+
+   #hero .content {
+      padding: 10px 10px 20px;
+   }
+
+   #hero .content h1 {
+      font-size: 1.7rem;
    }
 
    #hero .content p {
