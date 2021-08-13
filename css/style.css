@@ -3,7 +3,7 @@
 :root {
    --primary-color: #FFDD00;
    --secondary-color: #333333;
-   --text-primary: #cca509;
+   --text-primary: #ebbf0f;
    --bg-primary: #c9a1e4;
    --bg-primary-dark: #40155C;
 }
@@ -97,7 +97,7 @@ i {
 }
 
 .navbar .nav-menu li a:hover {
-   color: #aaa;
+   color: var(--text-primary);
 }
 
 .navbar .nav-menu li:last-child a:hover {
