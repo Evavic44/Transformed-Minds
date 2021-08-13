@@ -2,7 +2,7 @@
 
 :root {
    --primary-color: #FFDD00;
-   --secondary-color: #333333;
+   --secondary-color: #111111;
    --text-primary: #ebbf0f;
    --bg-primary: #c9a1e4;
    --bg-primary-dark: #40155C;
@@ -181,6 +181,38 @@ i {
    margin: 15px 0;
    font-weight: 600;
 }
+
+/* Our work */
+#our-work {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#our-work p:last-child {
+   padding: 0 10px;
+}
+
+.icons-card {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 1rem;
+   column-gap: 2rem;
+}
+
+.icons-card .card {
+   text-align: center;
+}
+
+.icons-card img {
+   width: 260px;
+}
+
+.icons-card .heading-two {
+   font-size: 2.5rem;
+}
+
 
 /* Thank you page */
 .thankyou {

@@ -1,13 +1,19 @@
 .container-large {
-   max-width: 1000px;
+   max-width: 1300px;
    margin: 0 auto;
    padding: 1rem 2rem;
 }
 
 .container-medium {
-   max-width: 800px;
+   max-width: 900px;
    margin: 0 auto;
    padding: 1rem 2rem;
+}
+
+.container-small {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 1rem;
 }
 
 .btn {
@@ -47,15 +53,65 @@
    color: #fff;
 }
 
+.card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.card h3 {
+   padding-bottom: 0rem;
+}
+
 /* Heading */
 .heading-one {
    font-family: 'Righteous', sans-serif;
-   font-size: 2.5rem;
+   font-size: 1.75rem;
+   text-align: center;
    color: var(--secondary-color);
 }
 
 .heading-two {
-   font-size: 1rem;
+   font-size: 1.15rem;
+   font-weight: 600;
    color: var(--text-primary);
    text-align: center;
+}
+
+/* Paragraph */
+.p-1 {
+   font-size: 1rem;
+   font-weight: 500;
+   letter-spacing: 1rem;
+}
+
+/* Paragraph Size */
+.ps-1 {
+   font-size: 1.1rem;
+   line-height: 1.6rem;
+   text-align: center;
+}
+
+/* Margin Top*/
+.my-1 {
+   margin-top: 3rem;
+}
+
+.my-2 {
+   margin: 1.25rem;
+}
+
+.my-3 {
+   margin-top: 0.7rem;
+}
+
+/* Padding */
+.py-1 {
+   padding: 1rem;
+}
+
+.py-2 {
+   padding: 0.5rem
 }
