@@ -1,10 +1,10 @@
-<img align="center" src="https://user-images.githubusercontent.com/62628408/120684411-8e82b000-c496-11eb-8757-9144bc60054a.png">
+# Transformedminds <img align="left" src="https://user-images.githubusercontent.com/62628408/129467455-98e75044-31bc-41be-873a-f98e88d3d1d7.png" width="50px">
+
+
+<img align="center" src="https://user-images.githubusercontent.com/62628408/129463161-35cdb282-1a5a-458b-b908-edbc6c84f89f.png">
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ac08b08f-d878-4c3f-873e-7d9775305efc/deploy-status)](https://app.netlify.com/sites/transformedminds/deploys)
 
-<a href="mailto: transformedmindsng@gmail.com"> 
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
 
 <h2>The Vision</h2>
 <p>Transformed Minds is an initiative aimed at helping individuals struggling with addiction to sexual sins like fornication, masturbation, and pornography. The gospel of Jesus Christ will only be internalised when the mind is fully prepared to receive it.
