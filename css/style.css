@@ -50,6 +50,10 @@ i {
    font-style: normal;
 }
 
+main a {
+   color: var(--secondary-color);  
+}
+
 /* Navbar */
 .navbar {
    display: flex;
@@ -63,7 +67,7 @@ i {
    padding: 1rem;
    background: #fff;
    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
-   z-index: 10;
+   z-index: 20;
    transition: .4s ease-in-out;
 }
 
@@ -147,8 +151,9 @@ i {
 /* Hero */
 #hero {
    height: 100vh;
-   background: url(/assets/images/home/hero.jpg) no-repeat center center/cover;
    box-shadow: inset 0 0px 100px 100px rgba(0, 0, 0, 0.5);
+   position: relative;
+   z-index: 10;
 }
 
 #hero .content {
@@ -162,6 +167,8 @@ i {
    color: #fff;
    max-width: 1000px;
    margin: 0 auto;
+   position: relative;
+   z-index: 10;
 }
 
 #hero .content h1 {
@@ -182,37 +189,88 @@ i {
    font-weight: 600;
 }
 
+/* Video */
+.hero-video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   opacity: 0.9;
+   z-index: 5;
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(1, 1, 1, 1);
+   mix-blend-mode: overlay;
+}
+
 /* Our work */
 #our-work {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+   text-align:center;
 }
 
 #our-work p:last-child {
    padding: 0 10px;
 }
 
-.icons-card {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
+#video {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 100vh;
    padding: 1rem;
-   column-gap: 2rem;
 }
 
-.icons-card .card {
+.welcome-video {
+   width: 500px;
+   margin-right: 2rem;
+}
+
+.welcome-text h3 {
+   padding-bottom: 0rem;
+}
+
+/* Story */
+.story-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.card-content {
    text-align: center;
 }
 
-.icons-card img {
-   width: 260px;
+.card-content h2 {
+   font-size: 1rem;
+   font-weight: 400;
+   padding: 1rem;
 }
 
-.icons-card .heading-two {
-   font-size: 2.5rem;
+.card-content h3 {
+   font-size: 1.3rem;
+   font-weight: 100;
 }
 
+.card-content a {
+   text-decoration: underline;
+   opacity: 0.8;
+   font-weight: 400;
+}
+
+.card-content a:hover {
+   opacity: 1;
+}
+
+#story img {
+   width: 100%;
+}
 
 /* Thank you page */
 .thankyou {
@@ -364,6 +422,10 @@ i {
 }
 
 @media(max-width: 768px) {
+   #hero {
+      background: url(/assets/images/home/hero.jpg) no-repeat center center/cover;
+   }
+
    /* Hero */
    #hero .content h1 {
       font-size: 2.3rem;
