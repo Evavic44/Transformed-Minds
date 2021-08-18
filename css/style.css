@@ -19,7 +19,6 @@ body {
    line-height: 1.5;
    color: var(--secondary-color);
    font-weight: 300;
-   height: 10000px;
 }
 
 h1, h2, h3 { 
@@ -270,6 +269,35 @@ main a {
 
 #story img {
    width: 100%;
+}
+
+#embed {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80vh;
+}
+
+.embed-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.embed-video {
+   margin-right: 2rem;
+}
+
+iframe {
+   width: 480px;
+   height: 270px;
+}
+
+.embed-content h3 {
+   font-size: 1.5rem;
+   line-height: 1.8rem;
+   padding-bottom: 0;
 }
 
 /* Thank you page */
