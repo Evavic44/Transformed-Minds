@@ -1,29 +1,46 @@
 body {
    background: #fff;
+   color: #333;
+   overflow-y: hidden;
 }
 
-.form-page {
-   margin: 20px;
+body, input, select, option, textarea, button {
+   font-family: 'Proxima', sans-serif;
 }
 
-.form-page h1 {
-   text-align: center;
-   font-family: 'Righteous', sans-serif;
-   margin-bottom: 20px;
+@font-face {
+  font-family: 'Proxima';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Proxima'), url('/assets/font/Proxima\ Nova\ Alt\ Light.otf') format('truetype');
 }
 
-.fa-lightbulb {
-   color: var(--primary-color);
+#form {
+   display: grid;
+   grid-template-columns: 1.3fr 1fr;
+}
+
+.form-left {
+   background-image: url(/assets/images/cards/happy\ people.jpg);
+   background-repeat: no-repeat;
+   background-position: calc(100%) calc(100%);
+   background-size: cover;
+   object-fit: fill;
+   height: 100vh;
+}
+
+.form-right {
+   margin: 0 40px;
+   overflow-y: scroll;
+   height: 100vh;
+}
+
+.form-right .logo a {
+   color: #444;
 }
 
 .form-body {
-   border: 2px solid var(--secondary-color);
-   font-family: 'Righteous', sans-serif;
-   background-color: #fff;
-   box-shadow: 5px 10px 40px 5px rgba(8, 8, 8, 0.24), -5px -6px 30px 5px rgba(48, 46, 46, 0.39);
-   color: #333;
-   padding: 25px;
-   border-radius: 5px;
+   padding: 20px;
 }
 
 .form-body h2 {
@@ -34,8 +51,8 @@ body {
 .form-body p {
    text-align: center;
    font-size: 0.8rem;
-   font-weight: 500;
-   opacity: 0.8;
+   font-weight: 600;
+   opacity: 0.7;
    margin: 3px 10px 15px;
 } 
 
@@ -47,24 +64,24 @@ body {
 .form-group label {
    display: block;
    font-size: 0.85rem;
+   font-weight: 600;
+   color: #333;
    opacity: 0.9;
    padding-bottom: 10px;
-   color: var(--primary-color);
 }
 
 .form-group input,
 .form-group button,
 .form-group textarea,
 .form-group select {
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    display: block;
    width: 100%;
    padding: 20px;
-   border: 1px solid #eee;
+   border: 1px solid rgba(128, 128, 128, 0.4);
    border-radius: 5px;
    font-size: 0.9rem;
    color: #444;
-   transition: .4s ease-in-out;
+   transition: .2s ease-in-out;
 }
 
 .form-group input:focus,
@@ -72,20 +89,19 @@ body {
 .form-group textarea:focus,
 .form-group select:focus {
    outline: none;
-   border-color: var(--bg-primary);
-   background-color: #f9f9f9;
+   border-color: #777;
 }
 
 .form-group button {
-   font-family: 'Righteous', sans-serif;
    cursor: pointer;
-   background-color: var(--bg-primary-dark);
-   color: #fff;
+   background-color: var(--primary-color);
+   border-radius: 40px;
+   color: #333;
    transition: background 0.3s ease-in-out;
 }
 
 .form-group button:hover {
-   background-color: var(--primary-color);
+   background-color: var(--text-primary);
 }
 
 .form-footer p {
@@ -95,17 +111,17 @@ body {
 
 .form-footer p a {
    text-decoration: underline;
-   color: #ddd;
 }
 
 .form-footer .socials {
    text-align: center;
 }
 
-.form-footer .socials a {
+.form-footer a {
    opacity: 0.9;
    font-size: 0.9;
    margin: 10px;
+   color: #555;
 }
 
 .form-footer .socials a:hover {
