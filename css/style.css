@@ -14,7 +14,7 @@
 }
 
 body {
-   font-family: 'Proxima', serif;
+   font-family: 'Proxima', sans-serif;
    line-height: 1.5;
    color: var(--secondary-color);
    font-weight: 300;
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2, h3 { 
-   font-family: 'Righteous', serif;
+   font-family: 'Righteous', sans-serif;
 }
 
 h1::selection,
@@ -453,6 +453,75 @@ iframe {
    font-size: 1rem;
    font-weight: 600;
 }
+
+.footer-nav-link li {
+   margin: 0.5rem 0;
+   text-transform: lowercase;
+}
+
+/* Masthead */
+.footer-masthead {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer-masthead select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -webkit-padding-end: 20px;
+   -moz-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -moz-padding-start: 2px;
+   background-image: url(/assets/images/home/dropdown.png); 
+   background-size: 15px;
+   background-position:  calc(100% - 10px);
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   border-radius: 2px;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   color: #555;
+   font-size: inherit;
+   margin: 0;
+   overflow: hidden;
+   padding: 0.8rem 1rem;
+   text-overflow: ellipsis;
+   transition: 0.2s ease-in-out;
+}
+
+.footer-masthead select:focus {
+   border-color: #333;
+}
+
+.footer-masthead option {
+   background: #fff;
+   padding: 1rem;
+   color: rgb(114, 110, 110);
+}
+
+.masthead-content ul {
+   display: flex;
+   padding: 1rem 0;
+}
+
+.masthead-content ul li a {
+   margin-right: 1.4rem;
+   font-size: 1.2rem;
+}
+
+.masthead-content div a {
+   margin-right: 0.5rem;
+}
+
+.masthead-content div a:last-child i {
+   color: var(--primary-color);
+}
+
+.masthead-content div a:last-child:hover i {
+   color: red;
+} 
 
 .form-footer {
    padding: 20px;
