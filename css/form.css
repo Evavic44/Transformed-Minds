@@ -18,6 +18,8 @@ body, input, select, option, textarea, button {
 #form {
    display: grid;
    grid-template-columns: 1.3fr 1fr;
+   text-align: center;
+   transition: .3s ease-in-out;
 }
 
 .form-left {
@@ -41,6 +43,7 @@ body, input, select, option, textarea, button {
 
 .form-body {
    padding: 20px;
+   text-align: left; 
 }
 
 .form-body h2 {
@@ -82,7 +85,22 @@ body, input, select, option, textarea, button {
    font-size: 0.9rem;
    color: #444;
    transition: .2s ease-in-out;
+   box-shadow: 0px 1px 1px 0.6px rgba(0, 0, 0, 0.2);
 }
+
+input[type="date"],
+/* input[type="select"] */
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   background-image: url(/assets/images/home/dropdown.png); 
+   background-size: 15px;
+   background-position:  calc(100% - 10px);
+   background-repeat: no-repeat;
+}
+
 
 .form-group input:focus,
 .form-group button:focus,
@@ -126,4 +144,29 @@ body, input, select, option, textarea, button {
 
 .form-footer .socials a:hover {
    opacity: 1;
+}
+
+/* Responsive */
+@media(max-width: 900px) {
+   #form {
+      grid-template-columns: 1fr 2fr;
+   }
+}
+
+@media(max-width: 600px) {
+   #form {
+      grid-template-columns: 0fr 1fr;
+   }
+
+   .form-container {
+      overflow: scroll;
+   }
+
+   .form-left {
+      display: hidden;
+   }
+   
+   .form-right {
+      overflow: inherit;
+   }
 }
