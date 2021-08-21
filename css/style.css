@@ -667,12 +667,13 @@ iframe {
    #video {
       flex-direction: column;
       justify-content: space-around;
+      align-items: center;
       margin-bottom: 2rem; 
    }
 
    .welcome-video {
       width: 400px;
-      margin-right: 2rem;
+      transform: translateX(15px);
    }
 
    .welcome-text, .embed-content {
