@@ -809,6 +809,6 @@ iframe {
       background-image: url(/assets/images/cards/happy\ people.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: calc(100% + 40px) calc(100%);
+      background-position: calc(100% + 80px) center;
    }
 }
