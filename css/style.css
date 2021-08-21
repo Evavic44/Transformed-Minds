@@ -804,4 +804,11 @@ iframe {
    #hero .content {
       padding: 10px 10px 20px;
    }
+
+   #hero {
+      background-image: url(/assets/images/cards/happy\ people.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: calc(100% - 0px) calc(100%);
+   }
 }
