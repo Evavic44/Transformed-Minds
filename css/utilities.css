@@ -86,6 +86,10 @@
    padding: 1rem;
 }
 
+.card-content {
+   margin: 0 3rem;
+}
+
 .card h3 {
    padding-bottom: 0rem;
 }
@@ -152,4 +156,30 @@
    max-width: 1100px;
    margin: 0 auto;
    padding: 1rem;
+}
+
+@media(max-width: 1000px) {
+   .card-container img {
+      width: 200px;
+   }
+}
+
+@media(max-width: 768px) {
+   #our-work .heading-one {
+      font-size: 1.1rem;
+   }
+
+   #our-work p {
+      font-size: 1rem;
+   }
+
+   .card-container {
+      grid-template-columns: 1fr;
+      column-gap: 0;
+      row-gap: 1rem;
+   }
+
+   .card-container img {
+      width: 260px;
+   }
 }
