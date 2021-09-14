@@ -4,7 +4,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ac08b08f-d878-4c3f-873e-7d9775305efc/deploy-status)](https://app.netlify.com/sites/transformedminds/deploys)
 
-
 <h2>The Vision</h2>
 <p>Transformed Minds is an initiative aimed at helping individuals struggling with addiction to sexual sins like fornication, masturbation, and pornography. The gospel of Jesus Christ will only be internalised when the mind is fully prepared to receive it.
 The mind of a believer must be devoid of blemishes, and this initiative is targeted at improving the spiritual lives of Christians through the gospel of Jesus.</p>

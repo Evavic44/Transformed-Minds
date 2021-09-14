@@ -1,185 +1,185 @@
 .container-xlarge {
-   max-width: 1500px;
-   margin: 0 auto;
-   padding: 1rem 2rem;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
 }
 
 .container-large {
-   max-width: 1200px;
-   margin: 0 auto;
-   padding: 1rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
 }
 
 .container-medium {
-   max-width: 900px;
-   margin: 0 auto;
-   padding: 1rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
 }
 
 .container-small {
-   max-width: 600px;
-   margin: 0 auto;
-   padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .btn {
-   display: inline-block;
-   background-color: var(--primary-color);
-   border: 1px solid var(--primary-color);
-   color: var(--secondary-color);
-   cursor: pointer;
-   padding: 1rem 2.2rem;
-   margin: 0.5rem 0;
-   font-weight: 400;
-   transition: all 0.3s ease-in-out;
+  display: inline-block;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+  padding: 1rem 2.2rem;
+  margin: 0.5rem 0;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
-   background-color: #fff;
-   color: var(--secondary-color);
-   border: 1px solid var(--primary-color);
+  background-color: #fff;
+  color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .btn-small {
-   padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .btn-primary {
-   background-color: var(--bg-primary);
-   color: var(--bg-primary-dark);
+  background-color: var(--bg-primary);
+  color: var(--bg-primary-dark);
 }
 
 .btn-secondary {
-   background: #fff;
-   color: var(--secondary-color);
+  background: #fff;
+  color: var(--secondary-color);
 }
 
 .btn-secondary:hover {
-   background: var(--primary-color);
-   color: #fff;
+  background: var(--primary-color);
+  color: #fff;
 }
 
 .card-container {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   padding: 1rem;
-   column-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  column-gap: 1rem;
 }
 
 .card-container .card {
-   text-align: center;
+  text-align: center;
 }
 
 .card-container img {
-   width: 260px;
+  width: 260px;
 }
 
 .card-container .heading-two {
-   font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .card {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 .card-content {
-   margin: 0 3rem;
+  margin: 0 3rem;
 }
 
 .card h3 {
-   padding-bottom: 0rem;
+  padding-bottom: 0rem;
 }
 
 /* Heading */
 .heading-one {
-   font-weight: 300;
-   font-size: 1.75rem;
-   text-align: center;
-   color: var(--secondary-color);
+  font-weight: 300;
+  font-size: 1.75rem;
+  text-align: center;
+  color: var(--secondary-color);
 }
 
 .heading-two {
-   font-size: 1.15rem;
-   font-weight: 300;
-   color: var(--text-primary);
-   text-align: center;
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: var(--text-primary);
+  text-align: center;
 }
 
 .heading-small {
-   font-size: 1rem;
-   color: var(--text-primary);
-   text-align: center;
+  font-size: 1rem;
+  color: var(--text-primary);
+  text-align: center;
 }
 
 /* Paragraph */
 .p-1 {
-   font-size: 1rem;
-   font-weight: 500;
-   letter-spacing: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1rem;
 }
 
 /* Paragraph Size */
 .ps-1 {
-   font-size: 1.1rem;
-   line-height: 1.6rem;
-   text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  text-align: center;
 }
 
 /* Margin Top*/
 .my-1 {
-   margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .my-2 {
-   margin-top: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .my-3 {
-   margin-top: 0.7rem;
+  margin-top: 0.7rem;
 }
 
 /* Padding */
 .py-1 {
-   padding: 1rem;
+  padding: 1rem;
 }
 
 .py-2 {
-   padding: 0.5rem
+  padding: 0.5rem;
 }
 
 .underline {
-   border-bottom: 1px solid rgba(128, 128, 128, 0.4);
-   max-width: 1100px;
-   margin: 0 auto;
-   padding: 1rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-@media(max-width: 1000px) {
-   .card-container img {
-      width: 200px;
-   }
+@media (max-width: 1000px) {
+  .card-container img {
+    width: 200px;
+  }
 }
 
-@media(max-width: 768px) {
-   #our-work .heading-one {
-      font-size: 1.1rem;
-   }
+@media (max-width: 768px) {
+  #our-work .heading-one {
+    font-size: 1.1rem;
+  }
 
-   #our-work p {
-      font-size: 1rem;
-   }
+  #our-work p {
+    font-size: 1rem;
+  }
 
-   .card-container {
-      grid-template-columns: 1fr;
-      column-gap: 0;
-      row-gap: 1rem;
-   }
+  .card-container {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 1rem;
+  }
 
-   .card-container img {
-      width: 260px;
-   }
+  .card-container img {
+    width: 260px;
+  }
 }
