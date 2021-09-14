@@ -96,7 +96,6 @@
 
 /* Heading */
 .heading-one {
-  font-weight: 300;
   font-size: 1.75rem;
   text-align: center;
   color: var(--secondary-color);
@@ -104,7 +103,6 @@
 
 .heading-two {
   font-size: 1.15rem;
-  font-weight: 300;
   color: var(--text-primary);
   text-align: center;
 }
