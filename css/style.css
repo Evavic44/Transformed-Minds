@@ -561,6 +561,19 @@ iframe {
 }
 
 @media (max-width: 850px) {
+  .navbar ul li a {
+    color: var(--secondary-color) !important;
+  }
+
+  .navbar ul li a:hover {
+    color: var(--primary-color) !important;
+  }
+
+  .navbar ul li:last-child a:hover {
+    background: #fff;
+    border: 1px solid var(--primary-color);
+  }
+
   main {
     text-align: center;
   }
