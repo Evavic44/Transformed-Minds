@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 :root {
   --primary-color: #ffdd00;
   --secondary-color: #111111;
@@ -28,13 +30,11 @@ body {
     url("/assets/font/Proxima\ Nova\ Alt\ Light.otf") format("truetype");
 }
 
-h1 {
-  font-family: "Righteous", "Proxima", sans-serif;
-}
-
+h1,
 h2,
 h3 {
-  font-family: "Righteous", "Proxima", sans-serif;
+  font-family: "Raleway", "Proxima", sans-serif;
+  font-weight: 800;
 }
 
 h1::selection,
@@ -121,7 +121,6 @@ main a {
 }
 
 .logo {
-  font-family: "Righteous", "Proxima", sans-serif;
   margin-top: 0.8rem;
   padding: 1rem;
   font-size: 1.2rem;
@@ -267,7 +266,6 @@ main a {
 
 .card-content h3 {
   font-size: 1.3rem;
-  font-weight: 100;
 }
 
 .card-content a {
