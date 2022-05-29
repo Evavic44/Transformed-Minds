@@ -60,15 +60,36 @@
       rel="stylesheet"
     />
 
-    <!-- Internal Links -->
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/form.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utilities.css" />
   </head>
   <body class="form-container">
     <main id="form">
-      <div class="form-left"></div>
-      <div class="form-right">
+      <div
+        class="form-left"
+        data-aos="zoom-out"
+        data-aos-offset="0"
+        data-aos-delay="0"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="false"
+        data-aos-once="true"
+        data-aos-anchor-placement="center-center"
+      ></div>
+      <div
+        class="form-right"
+        data-aos="zoom-in"
+        data-aos-offset="0"
+        data-aos-delay="300"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="false"
+        data-aos-once="true"
+        data-aos-anchor-placement="center-center"
+      >
         <h1 class="logo">
           <a href="index.html"
             ><img src="assets/images/home/logo.png" alt="Transformed mind logo"
@@ -276,5 +297,10 @@
         </footer>
       </div>
     </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
