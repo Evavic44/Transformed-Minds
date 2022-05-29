@@ -313,6 +313,7 @@ iframe {
 /* Thank you page */
 .thankyou {
   min-height: 70vh;
+  margin-top: 6rem;
 }
 
 .thankyou .content {
@@ -336,18 +337,6 @@ iframe {
 
 .thankyou .content p {
   margin-bottom: 20px;
-}
-
-.thankyou .btn {
-  font-weight: 600;
-}
-
-.thankyou .btn:hover span {
-  transition: all 0.5s ease-in;
-}
-
-.thankyou .btn:hover span {
-  transform: rotate(90deg);
 }
 
 .thankyou .back {
@@ -525,11 +514,17 @@ iframe {
 }
 
 .form-footer {
+  text-align: center;
   padding: 20px;
 }
 
 .form-footer .copy {
   font-size: 0.9rem;
+}
+
+.form-footer .socials a {
+  color: var(--secondary-color);
+  margin-right: 0.3rem;
 }
 
 /* Responsive */
