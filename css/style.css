@@ -165,6 +165,9 @@ main a {
   position: relative;
   z-index: 10;
   background-image: url(/assets/images/home/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
 
 #hero .content {
@@ -646,11 +649,6 @@ iframe {
   }
 
   /* Hero */
-  #hero {
-    background: url(/assets/images/cards/happy\ people.jpg) no-repeat center
-      center/cover;
-  }
-
   #hero .content h1 {
     font-size: 2.5rem;
   }
@@ -663,7 +661,7 @@ iframe {
     display: none;
   }
 
-  .overlay {
+  /* .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -671,7 +669,7 @@ iframe {
     height: 100%;
     background: rgba(1, 1, 1, 0.5);
     mix-blend-mode: overlay;
-  }
+  } */
 
   #team {
     flex-direction: column;
@@ -815,11 +813,11 @@ iframe {
   #hero .content {
     padding: 10px 10px 20px;
   }
-
+  /* 
   #hero {
     background-image: url(/assets/images/cards/happy\ people.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: calc(100% + 160px) center;
-  }
+    background-position: center center;
+  } */
 }
