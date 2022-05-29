@@ -71,11 +71,8 @@
       <div class="form-right">
         <h1 class="logo">
           <a href="index.html"
-            ><img
-              src="assets/images/home/logo.png"
-              alt="Transformed mind logo"
-            /><span><i>Transformed</i><i>Minds</i></span></a
-          >
+            ><img src="assets/images/home/logo.png" alt="Transformed mind logo"
+          /></a>
         </h1>
         <div class="form-body">
           <h2>Create an account</h2>
@@ -85,7 +82,7 @@
           </p>
           <form
             name="contact"
-            action="thankyou.html"
+            action="/thankyou.html"
             data-netlify="true"
             data-netlify-recaptcha="true"
           >
@@ -152,7 +149,8 @@
               <label for="gender">Gender</label>
               <select name="gender" id="gender">
                 <option value="male">Male</option>
-                <option value="male">Female</option>
+                <option value="female">Female</option>
+                <option value="other">Rather not say</option>
               </select>
             </div>
 
@@ -165,9 +163,9 @@
                 id="what-do-you-struggle-with?"
               >
                 <option value="pornography">Pornography</option>
-                <option value="aduletry">Aduletry</option>
-                <option value="fornication">Fornication</option>
                 <option value="masturbation">Masturbation</option>
+                <option value="fornication">Drugs / Substance Abuse</option>
+                <option value="aduletry">Smoking</option>
                 <option value="other">Other</option>
               </select>
             </div>
@@ -249,9 +247,9 @@
               ></textarea>
             </div>
 
-            <!-- <div class="form-group">
-                  <div data-netlify-recaptcha="true"></div>
-               </div> -->
+            <div class="form-group">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
 
             <div class="form-group">
               <button type="submit">Submit</button>
